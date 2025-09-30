@@ -1,13 +1,25 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
+[RequireComponent(typeof(CharacterController))]
+public class PlayerMovement : MonoBehaviour
+{
+    public float vitesseMarche = 3f;
+    public float vitesseCourse = 5f;
+    public float crouchSpeed = 2f;
+    public float jumpPower = 7f;
+    public float gravity = 10f;
+}
+*/
+
+using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Réglages de vitesse")]
-    public float walkSpeed = 3f;
-    public float runSpeed = 5f;
+    public float walkSpeed = 1f;
+    public float runSpeed = 2f;
     public float crouchSpeed = 2f;
-    public float jumpPower = 7f;
+    public float jumpPower = 1f;
     public float gravity = 10f;
 
     [Header("Reglages de vue")]
